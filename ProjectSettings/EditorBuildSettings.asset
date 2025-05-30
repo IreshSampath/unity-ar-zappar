@@ -11,5 +11,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Face Tracking/_Face Tracking.unity
     guid: c94be8090045f4d4a8b35b839ea06840
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 528fe4b70cc1924498c9f858ebbc5874,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7990b653e3cdb224d95a6be60f3d2fc1,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8521f3e33c2ad6d468b40c7038bbcd29,
+      type: 2}
   m_UseUCBPForAssetBundles: 0
