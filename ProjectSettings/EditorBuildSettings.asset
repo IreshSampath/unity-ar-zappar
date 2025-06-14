@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Face Tracking 3D Model.unity
     guid: 68f3ea65cd41f474ba4fbb49369c2e96
-  - enabled: 1
-    path: Assets/_Face Tracking/_Face Tracking.unity
+  - enabled: 0
+    path: Assets/_Face Tracking/Scences/_Face Tracking.unity
     guid: c94be8090045f4d4a8b35b839ea06840
+  - enabled: 0
+    path: Assets/Scenes/Face Tracking 3D Mode testl.unity
+    guid: b4653db4d5ade5c4ba41ab841bc26902
   m_configObjects:
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 528fe4b70cc1924498c9f858ebbc5874,
       type: 2}
@@ -18,4 +21,3 @@ EditorBuildSettings:
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8521f3e33c2ad6d468b40c7038bbcd29,
       type: 2}
-  m_UseUCBPForAssetBundles: 0

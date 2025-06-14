@@ -1,5 +1,25 @@
 {
   "dependencies": {
+    "com.unity.burst": {
+      "version": "1.8.18",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.cloud.draco": {
+      "version": "5.1.8",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.burst": "1.8.11",
+        "com.unity.mathematics": "1.3.1"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.collab-proxy": {
       "version": "2.7.1",
       "depth": 0,
@@ -38,6 +58,47 @@
         "com.unity.test-framework": "1.1.9"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.unity.mathematics": {
+      "version": "1.3.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.render-pipelines.core": {
+      "version": "14.0.11",
+      "depth": 2,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.terrain": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.searcher": {
+      "version": "4.9.2",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.shadergraph": {
+      "version": "14.0.11",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.11",
+        "com.unity.searcher": "4.9.2"
+      }
     },
     "com.unity.test-framework": {
       "version": "1.1.33",
@@ -88,6 +149,18 @@
         "com.unity.editorcoroutines": "1.0.0"
       },
       "hash": "8cc7c5d4b64983f02451298e2cea7e486bdc9032"
+    },
+    "org.khronos.unitygltf": {
+      "version": "https://github.com/KhronosGroup/UnityGLTF.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.shadergraph": "10.0.0",
+        "com.unity.mathematics": "1.0.0"
+      },
+      "hash": "1d3d93121c61ce9ba8e76189ec0ddf34ba374118"
     },
     "com.unity.modules.androidjni": {
       "version": "1.0.0",
